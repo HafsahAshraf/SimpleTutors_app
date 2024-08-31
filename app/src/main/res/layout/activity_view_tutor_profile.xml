@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="HardcodedText">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/profile_pic"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/tutor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tutor_desc"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@id/avatar"
+        android:text="Firstname Lastname" />
+
+    <TextView
+        android:id="@+id/tutor_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar"
+        android:layout_alignParentStart="true"
+        android:text="@string/debug_paragraph" />
+    <!-- TODO: more fields, like listing the possible courses, pricing, reviews(?), etc. plus button to request tutoring -->
+
+</RelativeLayout>

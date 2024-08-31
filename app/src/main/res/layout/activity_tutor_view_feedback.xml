@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/TutorStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student's First and Last name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/StudentNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:text="blank" />
+
+
+    <TextView
+        android:id="@+id/GenFeedbackView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General Feedback"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/StudentGenFeedbackView"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:gravity="top"
+        android:text="blank" />
+
+    <TextView
+        android:id="@+id/ViewTopicsUnderstood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Topics Understood"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/StudentTopicsUnderstood"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:gravity="top"
+        android:text="blank" />
+
+    <TextView
+        android:id="@+id/BadTopicsView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Topics that continue to be confusing"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/StudentBadTopics"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:gravity="top"
+        android:text="blank" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:text="Temporary example as database needs setup"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+</android.widget.LinearLayout>

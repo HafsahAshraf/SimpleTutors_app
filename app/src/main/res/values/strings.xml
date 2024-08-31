@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SimpleTutors</string>
+    <string name="profile_pic">Profile Picture</string>
+    <string name="debug_paragraph">english</string>
+    <string name="search_icon_desc">Search Icon</string>
+    <string name="search_msg">Search…</string>
+    <string name="Submit">Do you wish to submit this feedback?</string>
+    <string name="Yes">OK</string>
+    <string name="No">Cancel</string>
+    <string name="send">Send</string>
+    <string name="Login">Login</string>
+    <string name="LoginName">Email</string>
+    <string name="PasswordTextViewMessage">Password</string>
+    <string name="LoginButtonText">Login</string>
+    <string name="email">email</string>
+</resources>

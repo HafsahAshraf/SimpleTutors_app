@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/StudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First and Last name" />
+
+    <EditText
+        android:id="@+id/StudentNameText"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Please enter your first and last name"
+        android:inputType="text"
+        android:singleLine="false" />
+
+
+
+    <TextView
+        android:id="@+id/GenFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General Feedback" />
+
+    <EditText
+        android:id="@+id/editTextGenFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Please enter feedback on how your tutoring session went."
+        android:inputType="textMultiLine"
+        android:singleLine="false" />
+
+    <TextView
+        android:id="@+id/TopicsUnderstood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Topics Understood" />
+
+    <EditText
+        android:id="@+id/editTextTopicsUnderstood"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Which topics did you feel were covered well?"
+        android:inputType="textMultiLine"
+        android:singleLine="false" />
+
+    <TextView
+        android:id="@+id/BadTopics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Topics that continue to be confusing" />
+
+    <EditText
+        android:id="@+id/editTextBadTopics"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Which topics do you find yourself continuing to struggle with?"
+        android:inputType="textMultiLine"
+        android:singleLine="false" />
+
+
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</android.widget.LinearLayout>
